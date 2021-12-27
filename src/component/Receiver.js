@@ -1,11 +1,12 @@
 import React from "react";
 
 const Receiver = ({ toPerson }) => {
+  const { fullName, location, state } = toPerson;
   return (
     <div className="receive">
-      <p>{toPerson.fullName}</p>
-      <p>{toPerson.location}</p>
-      <p>{toPerson.state}</p>
+      <p>{fullName}</p>
+      <p>{location}</p>
+      <p>{state}</p>
     </div>
   );
 };
