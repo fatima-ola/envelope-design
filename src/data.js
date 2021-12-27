@@ -9,9 +9,3 @@ export const toPerson = {
   location: " 123 Fake St.",
   state: " San Francisco, CA 94101",
 };
-
-export const person = {
-  fullName: "full Name",
-  location: "123 Fake St.",
-  state: "Boston, MA 02118",
-};
